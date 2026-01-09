@@ -57,6 +57,14 @@ nav a{
    text-decoration: none;
     color: #000000;
     font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav a:hover{
+    color: #ffffff;
+    background-color: #001931;
+    
+    
 }
 
 /* banner */
@@ -273,12 +281,9 @@ nav a{
     margin-bottom: 16px;
     font-weight: 400;
 }
-#second-banner .second-banner-content .second-banner-text .p-part-span .dop{
-    background-color: #30B868;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    margin-right: 12px;
+#second-banner .second-banner-content .second-banner-text img{
+    
+    margin-right: 10px;
 }
 
 /* challenge-section */
@@ -310,4 +315,50 @@ nav a{
     line-height: 1.5;
     width: 640px;
     margin: 0 auto 24px auto;
+}
+/* footer section */
+#footer{
+    background-color: #001931;
+    padding: 80px 120px 20px 120px;
+}
+.footer-content{
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo img{
+    width: 150px;
+}
+.footer-content h2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 10px;
+    margin: 16px 0 16px 0;
+}
+.footer-menu li{
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+.footer-menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    text-decoration: underline;
+}
+#footer hr{
+    margin-top: 20px;
+}
+#footer p{
+    color: #627382;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 16px auto;
+    text-align: center;
+    
 }
