@@ -127,6 +127,9 @@ nav a:hover{
     margin-top: 32px;
     font-size: 14px;
 }
+#banner .banner-content .banner-buttons .btn-primary i{
+    margin-left: 5px;
+}
 .btn-primary{
     width: 224px;
     height: 44px;
@@ -145,7 +148,7 @@ nav a:hover{
    box-shadow: 0px 4px 15px rgba(5, 7, 8, 0.6); 
 }
 #banner .banner-content .banner-buttons .btn-secondary{
-    width: 164px;
+    width: 174px;
     height: 44px;
     font-size: 16px;
     font-weight: 600px;
@@ -153,10 +156,12 @@ nav a:hover{
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 8px;
-    padding: 12px 16px;
+    padding: 12px 10px;
     cursor: pointer;
    
 }
+
+
 #banner .banner-content .banner-buttons .btn-secondary:hover{
     background-color: rgba(255, 255, 255, 0.2);
    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.6); 
@@ -315,6 +320,9 @@ nav a:hover{
     line-height: 1.5;
     width: 640px;
     margin: 0 auto 24px auto;
+}
+.challenge-content .btn-primary i{
+    margin-left: 5px;
 }
 /* footer section */
 #footer{
